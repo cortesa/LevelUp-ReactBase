@@ -27,7 +27,11 @@
         cursor: pointer;
         font-size: 2em;
         padding: 10px 15px;
-        opacity: 0.2;
+        //opacity: 1;
+        color: $dgrey;
+        &:hover{
+            color: $red;
+        }
     }
 }
 
