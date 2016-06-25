@@ -1,0 +1,86 @@
+.main-nav 
+    ul 
+        list-style: none
+        display: flex
+        padding: 0    
+    li + li 
+        margin-left: 20px
+    a 
+        text-decoration: none
+        border-bottom: 2px solid transparent
+    
+.userMenu 
+    cursor: pointer
+    position: relative
+    top: -10px
+    padding: 10px 5px 0 5px
+    border: solid 3px transparent
+    border-width: 0 0 3px 0
+    trans()
+    &:hover 
+        border-color: action
+        cursor: pointer
+    &.open 
+        border-color: action
+
+.blurWrap
+    z-index: 11
+    position: absolute
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    background: #000
+    display: none
+    opacity: 0.5
+    &.open 
+        display: block
+
+.userMenu-modal 
+    z-index: 12
+    position: absolute
+    top: 60px
+    right: 0px
+    height: 50%
+    width: 150px
+    padding: 20px
+    transform: translate3d(0, -25%, 0) scale(1)
+    border: solid 1px deep-grey
+    background: #FFF
+    opacity: 0
+    trans()
+    card(4)
+    &.open 
+        opacity: 1
+        transform: translateY(0%) scale(1)
+    h3 
+        margin-top: 0
+    .close-user 
+        position: absolute
+        top: 0
+        right: 0
+        display: block
+        cursor: pointer
+        font-size: 2em
+        padding: 10px 15px
+        //opacity: 1
+        color: deep-grey
+        trans()
+        &:hover
+            color: $red
+    ul 
+        list-style: none
+        display: block
+        padding: 0px
+    a 
+        text-decoration: none
+        border-bottom: 2px solid transparent
+
+.userMenuItem
+    @extend .userMenu
+    top: 0
+    padding: 0
+    border-color: transparent
+    &:hover 
+        border-color: transparent
+        border-bottom: solid 2px blue

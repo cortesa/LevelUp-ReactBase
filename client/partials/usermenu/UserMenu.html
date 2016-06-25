@@ -1,0 +1,20 @@
+<template name='UserMenu'>
+	{{#if currentUser}}
+		<li class="userMenu {{$.Session.get 'userMenu-toggle'}}">
+			<i class="fa fa-user"></i>&nbsp;{{currentUser.profile.firstName}}&nbsp;
+		</li>
+	{{else}}
+		<li class="login-toggle">Login/Sign-up</li>
+	{{/if}}
+	
+</template>
+
+<template name="UserMenuModal">
+	<div class="blurWrap {{$.Session.get 'userMenu-toggle'}}"></div>
+		<div class="userMenu-modal {{$.Session.get 'userMenu-toggle'}}">
+			<ul>
+			    <li><a class="userMenuItem" href="/dashboard">Dashboard</a></li>
+			    <li><span class="userMenuItem logout"><i class="fa fa-sign-out"></i>&nbsp;Logout</span></li>
+			</ul>                                
+		</div>     
+</template>

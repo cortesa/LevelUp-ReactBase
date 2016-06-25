@@ -1,5 +1,5 @@
 {
-  "name": "blasebase",
+  "name": "reactbase",
   "version": "1.0.0",
   "description": "",
   "main": "routes.js",
@@ -8,15 +8,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leveluptuts/Blaze-Base.git"
+    "url": ""
   },
-  "author": "",
+  "author": "Andrés Cortés",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leveluptuts/Blaze-Base/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/leveluptuts/Blaze-Base#readme",
+  "homepage": "",
   "dependencies": {
-    "moment": "^2.13.0"
+    "meteor-node-stubs": "^0.2.3",
+    "moment": "^2.13.0",
+    "react": "^15.1.0",
+    "react-addons-css-transition-group": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-komposer": "^1.8.0",
+    "react-mounter": "^1.2.0",
+    "simple-react-modal": "^0.4.9"
   }
 }
