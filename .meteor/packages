@@ -21,20 +21,12 @@ kadira:flow-router		#Router library
 stolinski:stylus-multi	#LevelUp library for CSS-Stylus
 
 meteortoys:allthings
-ultimatejs:tracker-react
 
 react
 fortawesome:fontawesome
 themeteorchef:bert
 
-#accounts-ui
 accounts-password
-#useraccounts:unstyled
-
-
-#raix:handlebar-helpers
-
-#aldeed:template-extension
 alanning:roles
 
 #------------------#
@@ -43,6 +35,12 @@ alanning:roles
 #fourseven:scss
 #kadira:blaze-layout
 #thereactivestack:blazetoreact
-accounts-base
+#ultimatejs:tracker-react
+#accounts-base
+#useraccounts:unstyled
+#accounts-ui
+#raix:handlebar-helpers
+#aldeed:template-extension
+
 
 

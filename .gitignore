@@ -1,6 +1,7 @@
 .DS_Store
 #client/accounts
 #client/accounts/*
+.meteor/local
 
 settings.json
 mup.json
