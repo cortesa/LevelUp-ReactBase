@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Level Up Tutorials Meteor Blaze Base
-
 =======
 # LevelUp-ReactBase
 
@@ -16,7 +13,6 @@ _________________________________________________________________________
 #--- Original README.md ---
 
 # Level Up Tutorials Meteor Blaze Base
->>>>>>> bad9b668c3f7b6ffe63e542600a9e5784df9d585
 
 ## How To Use
 
@@ -37,8 +33,7 @@ This is the base repo for starting any of the Meteor Blaze Topics Tutorials
 
 ## What this is not
 
-<<<<<<< HEAD
 This is not a starter theme, base theme, or UI framework.
 =======
-This is not a starter theme, base theme, or UI framework.
->>>>>>> bad9b668c3f7b6ffe63e542600a9e5784df9d585
+
+
