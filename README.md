@@ -1,5 +1,22 @@
+<<<<<<< HEAD
 # Level Up Tutorials Meteor Blaze Base
 
+=======
+# LevelUp-ReactBase
+
+This is a cover of Level Up tutorial called "Accounts in Meteor" :
+
+https://www.youtube.com/playlist?list=PLLnpHn493BHFMTabI7UK28e0e_CwoiYv6
+
+I tried to do it with React and Meteor.
+
+Don't be cruel, please.
+_________________________________________________________________________
+
+#--- Original README.md ---
+
+# Level Up Tutorials Meteor Blaze Base
+>>>>>>> bad9b668c3f7b6ffe63e542600a9e5784df9d585
 
 ## How To Use
 
@@ -20,4 +37,8 @@ This is the base repo for starting any of the Meteor Blaze Topics Tutorials
 
 ## What this is not
 
+<<<<<<< HEAD
 This is not a starter theme, base theme, or UI framework.
+=======
+This is not a starter theme, base theme, or UI framework.
+>>>>>>> bad9b668c3f7b6ffe63e542600a9e5784df9d585
